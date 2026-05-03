@@ -18,9 +18,9 @@ File structure
 A simple guide to run the project
 - Open terminal inside project folder using cmd
 - Install dependencies
-pip install -U pip
-pip install playwright openpyxl
-playwright install
+ pip install -U pip
+ pip install playwright openpyxl
+ playwright install
 - Run the command
   py -3.12 test_automation.py --excel "IT23411562_Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
 

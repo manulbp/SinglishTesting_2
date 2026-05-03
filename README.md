@@ -28,7 +28,7 @@ Output
 -Actual result of each scenario with the respective status(Fail/Pass) will be auto-updated.(two columns)
 
 Test case information
--50 Negative test case scenarios
+- 50 Negative test case scenarios
  
 
 

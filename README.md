@@ -18,7 +18,7 @@ File structure
 A simple guide to run the project
 - Open terminal inside project folder using cmd
 - Install dependencies
- - pip install -U pip,
+ -pip install -U pip,
  pip install playwright openpyxl,
  playwright install
 - Run the command

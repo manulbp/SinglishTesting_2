@@ -25,7 +25,7 @@ A simple guide to run the project
   py -3.12 test_automation.py --excel "IT23411562_Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
 
 Output
--Actual result of each scenario with the respective status(Fail/Pass) will be auto-updated.(two columns)
+- Actual result of each scenario with the respective status(Fail/Pass) will be auto-updated.(two columns)
 
 Test case information
 - 50 Negative test case scenarios

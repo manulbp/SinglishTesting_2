@@ -9,14 +9,15 @@ import openpyxl
 from openpyxl.cell.cell import MergedCell
 
 # Configuration
-ROOT_DIR = Path(__file__).resolve().parent.parent
+ROOT_DIR = Path(__file__).resolve().parent
 TESTS_DIR = ROOT_DIR / "test_automation"
 
 DEFAULT_EXCEL_CANDIDATES = [
+    str(ROOT_DIR / "IT23411562_Assignment 1 - Test cases.xlsx"),
     str(TESTS_DIR / "Assignment 1 - Test cases.xlsx"),
 ]
 
-DEFAULT_SHEET_NAME = " Test cases"
+DEFAULT_SHEET_NAME = "Test cases"
 DEFAULT_FRONTEND_URL = os.getenv("FRONTEND_URL", "https://www.pixelssuite.com/chat-translator")
 
 DEFAULT_INPUT_COLUMN_CANDIDATES = [
